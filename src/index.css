@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Counter";
+    src: url("../public/fonts/CursedTimerUlil-Aznm.ttf");
+}
+.box{
+    background-color: #1B244A;
+    display: block;
+    height: 250px;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.box .res .goals{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+}
+.box .res .goals p{
+    color: red;
+    text-align: center;
+    font-size: 70px;
+    font-family: "Counter";
+}
+.box .res h1{
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.box .res .buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.box .res .buttons button{
+    padding: 5px;
+    color: #9AABD8;
+    font-family: "Counter";
+    border: 1px solid #9AABD8;
+    cursor: pointer;
+    background-color: transparent;
+}
+.winner{
+    border: 3px solid lightgreen;
+}
+.even{
+    border: 3px solid lightgray;
+}
